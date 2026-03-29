@@ -1,1 +1,1 @@
-# Smart_Medical_Reminder_System
+# Smart Medical Reminder System
