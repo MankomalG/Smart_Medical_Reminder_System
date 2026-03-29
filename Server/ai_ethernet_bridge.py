@@ -80,6 +80,13 @@ def pretty_print_twin(twin_data: dict, raw_line: str):
 # ------------------------------------------------------------
 # LOG line parsing -> final dose event payload
 # ------------------------------------------------------------
+
+
+#################################################################################
+##-------------------AI Generated from line 90 to line 167---------------------##
+#################################################################################
+
+
 def parse_kv_log_line(line: str):
     """
     Parse MCU line like:
@@ -206,6 +213,12 @@ def main():
             if twin_data is not None:
                 pretty_print_twin(twin_data, line)
                 post_twin_to_flask(twin_data)
+
+
+#################################################################################
+##-------------------AI Generated from line 223 to line 245---------------------##
+#################################################################################
+
 
                 # Optional test behavior:
                 # send ACK automatically on rising edge of reminder_active
